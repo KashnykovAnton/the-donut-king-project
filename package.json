@@ -1,0 +1,29 @@
+{
+  "name": "the-donut-king-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /the-donut-king-team-project/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KashnykovAnton/the-donut-king-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KashnykovAnton/the-donut-king-project/issues"
+  },
+  "homepage": "https://github.com/KashnykovAnton/the-donut-king-project#readme",
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  }
+}
